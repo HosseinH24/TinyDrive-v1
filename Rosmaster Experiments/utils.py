@@ -51,7 +51,7 @@ def get_only_images():
     """
     read the .json file containing path to object images
     """
-    with open('/Users/hosseinhassani/Desktop/VLM/source codes/Rosmater_MSCNN_topK/visual qa/visual_qa.json') as f:
+    with open('path_to/visual_qa.json') as f:
         json_data = json.load(f)
 
 
@@ -145,7 +145,7 @@ def compute_loss(loss_function, logits, attn_high, attn_mid, attn_low, labels, l
 
 def train_vision_encoder(model, epochs, optimizer, device, train_loader, val_loader):
 
-    path_to_model = '/Users/hosseinhassani/Desktop/VLM/source codes/Rosmater_MSCNN_topK/vision encoder models'
+    path_to_model = 'path_to/vision encoder models'
     best_model = os.path.join(path_to_model, "best_model.pth")
     final_model = os.path.join(path_to_model, "final_model.pth")
     f2_model = os.path.join(path_to_model, "f2_model.pth")
@@ -558,7 +558,7 @@ def fine_tune_language_model(
             language_model.save_pretrained(save_dir, safe_serialization=False, save_format='pt')
             tokenizer.save_pretrained(save_dir)
             torch.save(projection.state_dict(), os.path.join(save_dir, "projection.pt"))
-            vision_encoder_cpu = vision_encoder.cpu()  # Move to CPU
+            vision_encoder_cpu = vision_encoder.cpu()
             torch.save(vision_encoder_cpu.state_dict(), os.path.join(save_dir, "vision_encoder.pt"))
 
     print("\n=== Evaluating on Test Set ===")
