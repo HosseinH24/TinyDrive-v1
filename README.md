@@ -27,7 +27,8 @@ Please refer to each directory for detailed instructions on dataset preparation 
 - [x] Vision encoder  
 - [x] Prioritized buffer  
 - [x] Training  
-- [x] Testing  
+- [x] Testing
+- [ ] Data preparation and code execution  
 
 ### DriveLM-nuScenes Experiments
 - [ ] Token generation  
