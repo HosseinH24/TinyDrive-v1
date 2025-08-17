@@ -6,3 +6,4 @@ The following GIF shows the performance of TinyDrive on the Rosmaster X3 self-dr
 Here’s the current status of the work:
 
 - [x] Vision Encoder Implementation
+- [ ] Ablation Studies  
