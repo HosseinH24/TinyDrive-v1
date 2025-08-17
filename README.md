@@ -17,3 +17,10 @@ Our current progress with this repository is as follows:
 - [x] prioritized buffer dataset
 - [x] training
 - [x] testing
+
+#### DriveLM-nuScenes Experiments
+- [ ] token generation
+- [ ] vision encoder
+- [ ] prioritized buffer dataset
+- [ ] training
+- [ ] testing
