@@ -36,8 +36,8 @@ Please refer to each directory for detailed instructions on dataset preparation 
 - [ ] Prioritized buffer dataset  
 - [ ] Training  
 - [ ] Testing
-- [ ] Data preparation and code execution  
-
+- [ ] Data preparation and code execution
+      
 ### Rosmaster Dataset
 - [ ] Object images  
 - [ ] No-object images  
