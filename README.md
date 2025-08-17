@@ -35,7 +35,8 @@ Please refer to each directory for detailed instructions on dataset preparation 
 - [ ] Vision encoder  
 - [ ] Prioritized buffer dataset  
 - [ ] Training  
-- [ ] Testing  
+- [ ] Testing
+- [ ] Data preparation and code execution  
 
 ### Rosmaster Dataset
 - [ ] Object images  
