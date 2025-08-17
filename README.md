@@ -7,12 +7,13 @@ TinyDrive is a Vision-Language Model (VLM), specifically designed to be deployed
 - TinyDrive-v11: T5-tiny + custom vision encoder
 - TinyDrive-v12: T5-mini + custom vision encoder
 
+In this repository, we provide access to the Rosmaster dataset, a custom dataset curated within a labrovatory for VQA, as well as PyTorch implementation of TinyDrive. Experiments are conducted on the Rosmaster dataset as well as DriveLM-nuScenes dataset. Please refer to each directory for more information on how to prepare the data and run the code. 
 
+Our current progress with this repository is as follows:
 
-
-
-
-Here’s the current status of the work:
-
-- [x] Vision Encoder Implementation
-- [ ] Ablation Studies  
+## Rosmaster Experiments
+- [x] token generation
+- [x] vision encoder
+- [x] prioritized buffer dataset
+- [x] training
+- [x] testing
