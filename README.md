@@ -25,7 +25,7 @@ Please refer to each directory for detailed instructions on dataset preparation 
 ### Rosmaster Experiments
 - [x] Token generation  
 - [x] Vision encoder  
-- [x] Prioritized buffer dataset  
+- [x] Prioritized buffer  
 - [x] Training  
 - [x] Testing  
 
