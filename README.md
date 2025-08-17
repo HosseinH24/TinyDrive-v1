@@ -1,4 +1,5 @@
-The following GIF shows the performance of TinyDrive on the Rosmaster X3 self-driving car:
+# TinyDrive
+TinyDrive-v11 and TinyDrive-v12 are two versions of the first generation of TinyDrive. 
 
 ![TinyDrive Demo](Media/TinyDrive_v11.gif)
 
